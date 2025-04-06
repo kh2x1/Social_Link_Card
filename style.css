@@ -30,9 +30,9 @@
     height: auto;
     padding: 10px;
     margin: 10px;
-    border-bottom: 2px solid rgba(255, 96, 22, 0.466);
+    border-bottom: 2px solid rgba(171, 255, 35, 0.26);
     outline: none;
-    box-shadow: 0px 0px 30px rgba(255, 107, 22, 0.247);
+    box-shadow: 0px 0px 30px rgba(171, 255, 35, 0.267);
     border-radius: 20px;
     background-color: rgba(35, 35, 35, 0.744);
     display: flex;
@@ -108,9 +108,14 @@ img:hover {
 }
 
 .btns > button:hover {
+    background-color: rgb(171, 255, 35);
     box-shadow: 0px 0px 4px rgba(233, 233, 233, 0.432);
     transition: all 0.2s ease-in-out;
 }
+
+.btns > button:hover > a {
+    color: black;
+} 
 
 a {
     text-decoration: none;
